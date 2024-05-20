@@ -1,6 +1,6 @@
 npm init -y
 
-npm install typescript ts-node-dev express express-validator @types/express
+npm install typescript ts-node-dev express express-validator express-async-errors mongoose @types/express
 
 tsc --init
 
