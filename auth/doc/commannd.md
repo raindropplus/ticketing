@@ -1,6 +1,6 @@
 npm init -y
 
-npm install typescript ts-node-dev express @types/express
+npm install typescript ts-node-dev express express-validator @types/express
 
 tsc --init
 
@@ -11,3 +11,6 @@ docker push raindropplus/auth
 skaffold dev
 
 C:\Windows\System32\drivers\etc
+
+thisisunfafe
+
