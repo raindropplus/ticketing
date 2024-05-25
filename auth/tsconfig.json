@@ -104,6 +104,8 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "types": ["node", "jest"], // Add other necessary types
+  },
+  "include": ["test/setup.ts", "src/types/global.d.ts", "**/*.ts"] // Adjust to include your test and setup files
 }
